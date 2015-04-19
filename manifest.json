@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Codewars",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_title": "Codewars",
+        "default_popup": "index.html",
+        "default_icon":"/resources/images/icon.png"
+    },
+    "author": "Mayur Arora",
+    "permissions": ["https://www.codewars.com/"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

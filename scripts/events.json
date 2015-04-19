@@ -1,0 +1,5 @@
+events: {
+    imgRefresh:{
+        click:"refreshDetails"
+    }
+}

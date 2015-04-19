@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='styles/index.css'>
+</head>
+
+<body>
+    <script src="scripts/jquery-1.11.2.js" type="text/javascript"></script>
+    <script src="scripts/handlebars-v3.0.1.js" type="text/javascript"></script>
+    <script src="scripts/utils.js" type="text/javascript"></script>
+    <script src="scripts/index.js" type="text/javascript"></script>
+    <script id='codewars-template' type="text/x-handlebars-template">
+        <section>
+            <p>
+                <span id='spanUsername' class="editable" placeholder='username' contenteditable>{{username}}</span>                
+                <img id='imgRefresh' class='imgRefresh' src="resources/images/refresh62.png" />
+            </p>
+            <p>
+                {{name}}
+                <sub>
+                {{clan}}
+            </sub>
+
+
+            </p>
+            <p>
+                Leaderboard Position {{leaderboardPosition}}
+            </p>
+            <p>
+                Honor {{honor}}
+            </p>
+            <p>Level {{ranks.overall.name}}</p>
+            <p>Score {{ranks.overall.score}}</p>
+            <p>Kata Completed {{codeChallenges.totalCompleted}}</p>
+            <p>Kata Authored {{codeChallenges.totalAuthored}}</p>
+
+            <p>
+                {{#each ranks.languages}}
+                <details open>
+                    <summary class="skills">{{@key}}</summary>
+                    <p>
+                        Score {{score}}
+                    </p>
+                    <p>
+                        Level {{name}}
+                    </p>
+                </details>
+                {{/each}}
+            </p>
+        </section>
+    </script>
+    <div id='divCodewars'>
+    </div>
+</body>
+
+</html>

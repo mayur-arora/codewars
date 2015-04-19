@@ -1,0 +1,43 @@
+body{
+    min-width:300px;
+    min-height:300px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+input[type='text']{
+    border-radius:5px;
+    display: inline-block;
+    width:120px;
+}
+
+.editable
+{
+
+    outline: none;
+    text-decoration: underline;
+    display: block;
+}
+.editable:empty:before{
+    content:attr(placeholder)
+}
+
+.skills
+{
+    outline: none;
+}
+
+#spanUsername,.imgRefresh
+{
+    display: inline;
+}
+
+.editable,.imgRefresh {
+    cursor: pointer;
+}
+.imgRefresh{
+    float: right;
+}

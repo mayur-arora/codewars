@@ -1,0 +1,11 @@
+{
+  "name": "codewars_extension",
+  "version": "0.0.0",
+  "description": "\"Unofficial Codewars Extension\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayur Arora",
+  "license": "BSD-2-Clause"
+}
