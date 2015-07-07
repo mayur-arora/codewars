@@ -1,4 +1,4 @@
 # codewars
 Unofficial Codewars Extension - Gets User Deatils
-Just download the zip file, extract it and load it as an unpackaged extension at chrome://extensions
+https://chrome.google.com/webstore/detail/codewars/mdfogflgbhkdckgjiiemgbmhedfndpna?authuser=1
 
